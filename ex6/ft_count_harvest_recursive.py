@@ -14,10 +14,10 @@
 
 def ft_count_harvest_recursive():
 	def recursive_harvest(count, days):
-		if count == days:
-			return days
-		else:
-			return recursive_harvest(count + 1, days)
+		if count > days:
+			return
+		print("Days {}".format(count))
+		return recursive_harvest(count + 1, days)
 	days = int(input("Days until harvest: "))
-	print(recursive_harvest(1, days))
+	recursive_harvest(1, days)
 	print("Harvest time!")

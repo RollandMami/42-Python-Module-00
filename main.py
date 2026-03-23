@@ -14,10 +14,7 @@ How it works:
 
 Make sure your exercise files are in the same folder as this main.py file!
 """
-import ft_hello_garden
-import ft_garden_name
-import ft_plot_area
-import ft_harvest_total
+import ft_seed_inventory
 
 def test_ft_exercise(exercise_file_name):
     """
